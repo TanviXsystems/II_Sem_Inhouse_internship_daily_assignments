@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+</head>
+
+<body>
+    <h1>TANVI GOYAL</h1>
+    <hr>
+    <img src="Tanvi.jpeg" height="150px">
+   
+   <div class="container">
+    <h2>About Me</h2>
+    <hr>
+    <p>
+     Dedicated Computer Science undergraduate seeking opportunities to leverage technical skills in software development, AI, and web development. Committed to continuous learning, innovation, and delivering impactful solutions while growing as a technology professional.
+    </p>
+   </div>
+   
+   <div class="sidebar">
+    <h2>Education </h2>
+    <hr>
+   <b> B.Tech. in Computer Science & Engineering with specialisation in Artificial intelligence</b>
+    <p>Swami Keshvanand Institute of Technology, Management & Gramothan (SKIT), Jaipur
+    <br>2025 – 2029
+    </p>
+    <h2>Skills & Certifications</h2>
+    <hr>
+    <p>
+    NPTEL Certified Problem Solving Using C<br>
+    NPTEL Certified Programming In Java<br>
+    
+    Industry Training: Scrum Digital (15-Day Professional Training Program)
+   </p>
+   </div>
+   
+   <div class="header">
+    <h2>Projects</h2>  
+    <hr>  
+    <p>A calculator</p>
+   </div>
+   <div>
+   <h2>Contact Information</h2>
+   <hr>
+    <b>Phone:</b><u>94******98</u><br>
+    <b>Email:</b><u>tanvi17goyal@gmail.com</u><br>
+    <a href="https://www.linkedin.com/in/tanvi-goyal-02b828365?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank"><b>LinkedIn</b></a>
+   </div>
+   
+
+</body>
+</html>
