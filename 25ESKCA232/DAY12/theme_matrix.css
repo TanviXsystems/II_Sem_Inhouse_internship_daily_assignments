@@ -1,0 +1,236 @@
+/* ===========================
+   Campus Secure Portal Theme
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    min-height:100vh;
+
+    font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+
+    background:linear-gradient(135deg,#0f172a,#1d4ed8,#2563eb);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:25px;
+
+}
+
+/* Login Card */
+
+.login-wrapper{
+
+    width:100%;
+    max-width:470px;
+
+}
+
+.login-card{
+
+    border:none;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    animation:fadeIn 0.8s ease;
+
+}
+
+.card-body{
+
+    background:#ffffff;
+
+}
+
+h2{
+
+    font-weight:700;
+
+}
+
+.text-muted{
+
+    font-size:15px;
+
+}
+
+/* Inputs */
+
+.form-control{
+
+    border-radius:10px;
+
+    padding:12px;
+
+    border:1px solid #ced4da;
+
+}
+
+.form-control:focus{
+
+    border-color:#2563eb;
+
+    box-shadow:0 0 10px rgba(37,99,235,.25);
+
+}
+
+/* Input Group */
+
+.input-group-text{
+
+    background:#ffffff;
+
+}
+
+/* Buttons */
+
+.btn-primary{
+
+    background:#2563eb;
+
+    border:none;
+
+    transition:.3s;
+
+}
+
+.btn-primary:hover{
+
+    background:#1d4ed8;
+
+    transform:translateY(-2px);
+
+}
+
+/* Links */
+
+a{
+
+    text-decoration:none;
+
+    color:#2563eb;
+
+    font-weight:500;
+
+}
+
+a:hover{
+
+    text-decoration:underline;
+
+}
+
+/* Alerts */
+
+.alert{
+
+    border-radius:10px;
+
+}
+
+/* Demo Box */
+
+.demo-box{
+
+    background:#f8f9fa;
+
+    border-radius:12px;
+
+    padding:12px;
+
+    font-size:14px;
+
+}
+
+/* Dashboard */
+
+.navbar{
+
+    box-shadow:0 2px 10px rgba(0,0,0,.2);
+
+}
+
+.card{
+
+    border:none;
+
+    border-radius:15px;
+
+}
+
+.table{
+
+    vertical-align:middle;
+
+}
+
+.table tbody tr:hover{
+
+    background:#eef4ff;
+
+}
+
+.search-box{
+
+    border-radius:50px;
+
+}
+
+mark{
+
+    background:#ffe066;
+
+    padding:2px 4px;
+
+    border-radius:4px;
+
+}
+
+/* Animation */
+
+@keyframes fadeIn{
+
+    from{
+
+        opacity:0;
+        transform:translateY(25px);
+
+    }
+
+    to{
+
+        opacity:1;
+        transform:translateY(0);
+
+    }
+
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+.login-wrapper{
+
+max-width:100%;
+
+}
+
+.card-body{
+
+padding:30px;
+
+}
+
+}

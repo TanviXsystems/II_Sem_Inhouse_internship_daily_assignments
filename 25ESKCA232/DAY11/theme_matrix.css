@@ -1,0 +1,13 @@
+body{
+background:#eef2ff;
+font-family:Arial;
+}
+
+.login-box{
+width:420px;
+margin:80px auto;
+}
+
+.card{
+border-radius:15px;
+}
